@@ -7,4 +7,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ID_CIDADE" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="74c34720-f9dd-4021-aaeb-86869868d03d" ChangeDateTime="02/13/2018 15:53:33">
+    <Property Name="ElementName" Value="[dbo].[TB_LOCALIZACAO_CIDADE].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_LOCALIZACAO_CIDADE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID_CIDADE" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c2cd80a-1670-4ed8-961f-66e580c18f57" ChangeDateTime="02/13/2018 16:02:15">
+    <Property Name="ElementName" Value="[dbo].[TB_LOCALIZACAO_CIDADE].[COORDENADA]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_LOCALIZACAO_CIDADE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LATITUDE" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5afc9f6a-da01-4975-a3e8-3e469d78308e" ChangeDateTime="02/13/2018 16:05:44">
+    <Property Name="ElementName" Value="[dbo].[FK_TB_LOCALIZACAO_CIDADE_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[TB_LOCALIZACAO_CIDADE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_TB_LOCALIZACAO_CIDADE_TB_CIDADE]" />
+  </Operation>
 </Operations>
